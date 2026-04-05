@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+        font-family: "Playfair Display", serif;
+}
+.navbar{
+justify-content: start;
+background-color: black;
+padding: 10px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    list-style: none;
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.img1{
+    background-image: url(../img/car-5865989_1280.jpg);
+    height: 80vh; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.img-text{
+    color: black;
+    
+}
+.img-text h2{
+    margin-bottom: 125px;
+    font-size: 50px;
+}
+
+.img1 button a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    gap: 30px;
+    border-radius: 10px;
+    background-image:linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);;
+}
+
+/* img 2 */
+
+.our{
+    text-align: center;
+    margin-top: 15px;
+    background-color: grey;
+}
+
+.img2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.img2-1 img{
+    width: 90%;
+    height: 70vh;
+    padding-left: 10px;
+    border-radius: 30px;
+}
+
+.img2-2 img{
+    width: 100%;
+    height: 70vh;
+    border-radius: 30px;
+}
+
+/* video */
+
+
+.services{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    background-color: grey;
+
+}
+
+.v1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* Footer */
+
+
+.footer{
+    margin-top: 20px;
+    background:#222;
+    color:white;
+    padding:40px 0;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.footer-box{
+    width:250px;
+}
+
+.footer-box h3{
+    margin-bottom:15px;
+}
+
+.footer-box ul{
+    list-style:none;
+    padding:0;
+}
+
+.footer-box ul li{
+    margin:8px 0;
+}
+
+.footer-box ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+.footer-box ul li a:hover{
+    color:orange;
+}
+
+.footer-bottom{
+    text-align:center;
+    margin-top:30px;
+    border-top:1px solid grey;
+    padding-top:15px;
+}
+/* pagination */
+
+.page{
+    display: flex;
+    justify-content: end;
+    color: black;
+}
+
+/* model */
+
+.brand{
+    text-align: center;
+    background-color: grey;
+    color: white;
+    padding: 10px;
+}
+
+.card-section{
+    max-width: 1200px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+}
+
+
+.model-card{
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.model-card:hover{
+    transform: translateY(-8px);
+}
+
+
+.model-card img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+
+.card-details{
+    padding: 20px;
+}
+
+.card-details h2{
+    margin-bottom: 10px;
+}
+
+.price{
+    color: #28a745;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.location{
+    color: #777;
+    margin-bottom: 15px;
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    background-color: #111;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #28a745;
+}
+/* services */
+        .serv-head {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .serv-section {
+            padding: 40px 20px;
+        }
+
+        .serv-section img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .serv-content {
+            padding: 20px;
+        }
+
+        .serv3 img {
+            width: 100%;
+            height: auto;
+        }
+
+
+
+
+/* Brand */
+
+
+.brand-section{
+    max-width: 1200px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.brand-card{
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+.brand-card:hover{
+    transform: translateY(-8px);
+}
+.brand-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    background: #f5f5f5;
+}
+
+
+
+/* Mobile */
+@media (max-width: 768px){
+
+    .navbar{
+                flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+        .nav-list {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .menu-toggle{
+        display: block;
+    }
+
+    .custom-navbar ul{
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: black;
+        flex-direction: column; 
+        align-items: center;
+        display: block;
+    }
+
+    .custom-navbar ul.active{
+        display: flex;
+    }
+
+    /* Hero section */
+    .img1{
+        height: 60vh;
+        padding-left: 20px;
+    }
+
+    .img-text h2{
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    /* Buttons */
+    .img-text a{
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    /* Image section */
+    .img2{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img2-1 img,
+    .img2-2 img{
+        width: 95%;
+        height: auto;
+    }
+
+    /* Video */
+    .v1 video{
+        width: 95%;
+        height: auto;
+    }
+
+    /* Footer */
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-box{
+        margin-bottom: 20px;
+    }
+
+    /* Cards */
+    .card-section{
+        grid-template-columns: 1fr;
+    }
+
+    .brand-section{
+        grid-template-columns: 1fr;
+    }
+    .img2-2 img {
+        width: 95%;
+        height: auto;
+        margin-left: 10px;
+    }
+}
